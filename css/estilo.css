@@ -1,0 +1,272 @@
+body{
+    background-color: #8BE1E8;
+    text-align: center;
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    color: rgb(129, 126, 126);
+    font-size: 23px;
+}
+.menu{
+    background-color: #5b6266;
+    display: block;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    color: white;
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.aa{
+    display:block;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    margin:7px 7px;
+}
+.aa:hover{
+    background-color:#B2F9FE;
+    color: black;
+}
+.log{
+    margin-left: 7%;
+    border-radius: 30px;
+    height: 21%;
+}
+.log:hover{
+    -webkit-transform:scale(1);transform:scale(1);
+    filter: sepia(40%);
+    border-radius: 35px;
+}
+.a{
+    width: 70%;
+    float: left;
+    height: 34%;
+    margin-left: 17px;
+
+}
+.menu img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    color: #4C7A7F ;
+}
+.contenedor{
+    width: 75%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:  100%;
+    text-align: justify;
+    color: #545657 ;
+    background-color: #A6AAAD ;
+    padding: 15px;
+    font-size: 20px;
+}
+.contenedor img{
+    width: 98%;
+    height: 90%;
+    margin-left: 0px; 
+    padding: 8px; 
+}
+p{
+    padding: 5px 15px 5px 9px;
+}
+.cont{
+    width: 90%;
+    margin-left: 5%;
+}
+hr{
+    width: 85%;
+    margin-top: -2px;
+    height:9px;
+    background-color: #4C7A7F ;
+    margin-left: 17%;
+}
+.esc{
+    justify-content: flex-start;
+    align-items: start;
+}
+.esc figure{
+    position: relative;
+    height: 100%;
+    width: 90%;
+    overflow: hidden;
+    border-radius: 6px;
+    box-shadow: 0px
+    rgb(0, 0,0, 0.50);
+    cursor: pointer;  
+}
+.esc figure img{
+    width: 100%;
+    height: 88%;
+    transition: all 500ms ease-in-out;
+}
+.esc figure .text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 92%;
+    background: #B2F9FE;
+    transition: all 500ms ease-in;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+}
+.esc figure:hover > .text{
+    opacity: 1;
+    visibility: visible;
+}
+.esc figure:hover > .text h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.esc figure .text h3{
+    color: black;
+    font-weight: 400;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 8px;
+}
+.esc figure .text p{
+    color: black;
+    font-size: 17px;
+    line-height: 1.5;
+    width: 100%;
+    max-width: 380px;
+    margin: auto;
+}
+.icon{
+    width: 40%;
+    height: 35px;
+    margin-top: 12px;
+    padding: 7px;
+}
+.icon:hover{
+    margin:4px;
+    display: inline-flex;
+}
+.iconos{
+    display: inline-flex;
+    padding: 3px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+}
+.iconos img:last-child{
+    display: none;
+}
+.iconos:hover img:last-child{
+    display: inline;
+}
+.iconos:hover img:first-child{
+    display: none;
+}
+.fue{
+    text-align: center;
+    margin-left: 16%;
+}
+button{
+    background-color: #4C7A7F;
+    text-align: center;
+    font-size:12px;
+    margin: auto;
+    width: 120px;
+    padding: 9px 9px;
+}
+.but {
+    transition-duration: 0.4s;
+  }
+  
+.but:hover {
+    background-color:#B2F9FE;
+}
+button a{
+    color: white;
+}
+.but:hover a{
+    color:black;
+}
+.cont2{
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin-left: 20%;
+    background-color: #A6AAAD;
+    display: flex;
+    height: 600px;
+
+}
+form{
+    background:#A6E8ED  ;
+    padding: 40px 0;
+    box-shadow: 0 0 6px 0 rgb(255, 2555, 255,0.9 );
+    border-radius: 10px;
+}
+.form{
+    width: 100%;
+    margin: auto;
+}
+form .grupo{
+    position: relative;
+    margin: 40px;
+}
+input{
+    background: none;
+    color: #8CB2AF;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    display: block;
+    width: 100%;
+    border:none;
+    border-bottom: 2px solid ;
+}
+input:focus{
+    outline: none;
+    color: #4C7A7F;
+}
+label{
+    color: #4C7A7F ;
+    font-size: 17px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    top: 10px;
+    transition: 0.5s ease-in-out;
+    pointer-events: none;
+}
+input:focus ~label,
+input:valid ~ label{
+    top: -12px;
+    font-size: 12px;
+
+}
+.barra{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+.barra::before{
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 0;
+    position: absolute;
+    left: 0%;
+}
+textarea{
+    background:#A6E8ED;
+    color: black;
+    border: #4C7A7F ;
+}
+.ind{
+    color: white;
+}

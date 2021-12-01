@@ -1,0 +1,260 @@
+body{
+    background-color: #8BE1E8;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    color: rgb(129, 126, 126);
+    font-size: 23px;
+}
+.menu{
+    background-color: #5b6266;
+    display: block;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    color: white;
+    z-index: 1;
+    padding: 5px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.aa{
+    display:block;
+    font-size: 20px;
+    color: white;
+    padding: 8px;
+    margin:7px 7px;
+}
+.aa:hover{
+    background-color:#B2F9FE;
+    color: black;
+}
+.log{
+    margin-left: 7%;
+    border-radius: 30px;
+    height: 21%;
+}
+.log:hover{
+    -webkit-transform:scale(1);transform:scale(1);
+    filter: sepia(40%);
+    border-radius: 35px;
+}
+.a{
+    width: 70%;
+    float: left;
+    height: 34%;
+    margin-left: 17px;
+}
+.menu img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+h1{
+    color: #35696e ;
+}
+.contenedor{
+    width: 75%;
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: 50% 50% ;
+    grid-template-rows:  90%;
+    text-align: justify;
+    color: #545657 ;
+    background-color: #A6AAAD ;
+    padding: 15px;
+    font-size: 20px;
+}
+.contenedor img{
+    width: 70%;
+    height: 54%;
+    margin-left: 0px; 
+    padding: 12px; 
+}
+p{
+    padding: 5px 15px 5px 9px;
+}
+.cont{
+    width: 90%;
+    margin-left: 5%;
+}
+.icon{
+    width: 40%;
+    height: 35px;
+    margin-top: 12px;
+    padding: 7px;
+}
+.icon:hover{
+    margin:4px;
+    display: inline-flex;
+}
+.iconos{
+    display: inline-flex;
+    padding: 3px;
+    margin-bottom: 15px;
+    margin-top: 43px;
+}
+.iconos img:last-child{
+    display: none;
+}
+.iconos:hover img:last-child{
+    display: inline;
+}
+.iconos:hover img:first-child{
+    display: none;
+}
+button{
+    background-color: #4C7A7F;
+    text-align: center;
+    font-size:12px;
+    margin: auto;
+    width: 120px;
+    padding: 9px 9px;
+}
+.but {
+    transition-duration: 0.4s;
+  }
+  
+.but:hover {
+    background-color:#B2F9FE;
+}
+button a{
+    color: white;
+}
+.but:hover a{
+    color:black;
+}
+table{
+    width:90%;
+    background-color: #BBEEF3 ;
+    border-collapse: collapse;
+    color: black;
+    margin-left: 30px;
+}
+th , td{
+    margin: auto;
+    padding: 10px;
+}
+thead{
+    background-color: #75D3DB ;
+    border-bottom: solid 5px #0f362d;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #B7C8C9  ;
+}
+.contimg{
+    width: 95%;
+    background-color: #6FE1F5  ;
+    text-align: center;
+    height: 267px;
+}
+tr:hover{
+    background-color: #16def09f ;
+    color: white;
+}
+.titulo{
+    color: rgba(15, 103, 161, 0.747);
+    font-size: 26px;
+}
+.gpi{
+    width: 80px;
+    height: 50px;
+}
+.sep{
+    text-align: center;
+    width: 72%;
+    margin-left: 20%;
+    margin-top: 3%;
+    padding: 0px 8px;
+}
+/**AGREGAR*/
+.cajalista{
+    background-color: rgb(137, 143, 141);
+    width: 70%;
+    text-align: center;
+    margin: auto;
+    margin-left: 20%;
+    padding: 20px;
+    color: rgb(4, 99, 99);
+}
+.search {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  form {
+    display: flex;
+  }
+  input {
+    padding: 15px 10px;
+    outline: none;
+    width:80%;
+    margin-left: 5%;
+  }
+  .li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    margin-top: 20px;
+  }
+li p:hover{
+    background-color: rgb(125, 207, 218);
+    border-radius: 5px;
+}
+  ul {
+    padding: 0;
+  }
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 10px;
+    margin-top: 15px;
+    display: flex;
+  }
+  li p {
+    margin: 0;
+    padding: 15px;
+    width: 90%;
+  }
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    outline: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 10%;
+    font-size: .9em;
+  }
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: rgb(184, 13, 13);
+    color: black;
+  }
+  .btn-add {
+    padding: 5px 15px;
+    border: none;
+    color: white;
+    font-family: fantasy;
+    background-color: teal;
+    font-size: 1.4rem;
+    outline: none;
+    height: 50px;
+  }
+  .btn-add:hover {
+    cursor: pointer;
+    background-color: darkcyan;
+  }
+  .empty {
+    color: darkslategrey;
+  }
